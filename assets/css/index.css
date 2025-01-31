@@ -1,0 +1,65 @@
+/* Hero Section */
+#hero {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('../img/logo.jpg') center/cover no-repeat;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    animation: fadeInTitle 2s ease-in-out forwards;
+}
+
+.hero-title .highlight {
+    color: #ffcc00;
+}
+
+.hero-slogan {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    animation: fadeInSlogan 3s ease-in-out forwards;
+}
+
+/* Team Section */
+#team h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.team-img {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.team-img:hover {
+    transform: scale(1.1);
+}
+
+/* Add an animation effect for the images */
+@keyframes fadeInTitle {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInSlogan {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

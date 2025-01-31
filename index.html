@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EAGLE ELITES</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex flex-column align-items-center justify-content-center">
+        <h1 class="hero-title animate__animated animate__fadeIn">We Are <span
+                class="highlight animate__animated animate__fadeIn animate__delay-1s">Eagle Elites</span></h1>
+        <p class="hero-slogan animate__animated animate__fadeIn animate__delay-2s">Soaring Above the Rest</p>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="container text-center py-5">
+        <h2 class="mb-4 animate__animated animate__fadeIn animate__delay-3s">Meet Our Team</h2>
+        <div class="row">
+            <!-- Each member's image container -->
+            <div class="col-6 col-md-3 mb-4 d-flex justify-content-center">
+                <div class="team-img-wrapper">
+                    <a href="abhijay.html"><img src="assets/img/abhijay.jpg" alt="Member 1"
+                            class="img-fluid team-img animate__animated animate__zoomIn animate__delay-4s"></a>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-4 d-flex justify-content-center">
+                <div class="team-img-wrapper">
+                    <img src="assets/img/paul.jpg" alt="Member 2"
+                        class="img-fluid team-img animate__animated animate__zoomIn animate__delay-5s">
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-4 d-flex justify-content-center">
+                <div class="team-img-wrapper">
+                    <img src="assets/img/abhijay.jpg" alt="Member 3"
+                        class="img-fluid team-img animate__animated animate__zoomIn animate__delay-6s">
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-4 d-flex justify-content-center">
+                <div class="team-img-wrapper">
+                    <img src="assets/img/anu.jpg" alt="Member 4"
+                        class="img-fluid team-img animate__animated animate__zoomIn animate__delay-7s">
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-4 d-flex justify-content-center">
+                <div class="team-img-wrapper">
+                    <img src="assets/img/shalbin.jpg" alt="Member 5"
+                        class="img-fluid team-img animate__animated animate__zoomIn animate__delay-8s">
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-4 d-flex justify-content-center">
+                <div class="team-img-wrapper">
+                    <img src="assets/img/adi.jpg" alt="Member 6"
+                        class="img-fluid team-img animate__animated animate__zoomIn animate__delay-9s">
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-4 d-flex justify-content-center">
+                <div class="team-img-wrapper">
+                    <img src="assets/img/josiya.jpg" alt="Member 7"
+                        class="img-fluid team-img animate__animated animate__zoomIn animate__delay-10s">
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-4 d-flex justify-content-center">
+                <div class="team-img-wrapper">
+                    <img src="assets/img/gautham.jpg" alt="Member 8"
+                        class="img-fluid team-img animate__animated animate__zoomIn animate__delay-11s">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
+
+<style>
+    /* Make image containers uniform */
+    .team-img-wrapper {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-top: 100%;
+        /* 1:1 Aspect Ratio */
+        overflow: hidden;
+        background-color: #f3f3f3;
+        /* Optional: to give a background for the images */
+    }
+
+    .team-img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        object-fit: cover;
+        /* Ensures image covers the container */
+        width: 100%;
+        height: 100%;
+    }
+</style>
